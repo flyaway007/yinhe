@@ -7,7 +7,7 @@
         global $_W, $_GPC;
         $weid = $_W['uniacid']; // master mod
         
-        $action = 'school';
+        $action = 'school'; // 学校id
         $title = '学校管理';
         $url = $this->createWebUrl($action, array('op' => 'display'));
 		$city = pdo_fetchall("SELECT * FROM " . tablename($this->table_area) . " where weid = '{$weid}' And type = 'city' ORDER BY ssort DESC");
