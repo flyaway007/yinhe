@@ -5,7 +5,7 @@
  * @kaoshangla 智慧校园
  */
         global $_W, $_GPC;
-        $weid = $_W['uniacid'];
+        $weid = $_W['uniacid']; // master mod
 
         $action = 'school';
         $title = '学校管理';
